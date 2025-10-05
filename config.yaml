@@ -1,0 +1,26 @@
+# caminhos
+input_dir: "data"          # onde você coloca as imagens/vídeos ou dataset de entrada
+output_dir: "data"         # onde o pipeline escreverá alerts.parquet/csv
+snapshots_dir: "snapshots" # onde salvará as imagens recortadas
+
+# modelo
+model_name: "yolov8n.pt"
+confidence_threshold: 0.4
+iou_threshold: 0.5
+
+# export
+export_parquet: true
+export_csv: true
+
+# esquema mínimo para o Briefer
+schema:
+  - alert_id
+  - source_id
+  - timestamp
+  - cls
+  - score
+  - bbox_xmin
+  - bbox_ymin
+  - bbox_xmax
+  - bbox_ymax
+  - snapshot_path
