@@ -1,4 +1,5 @@
 # ODS 16 — Detecção e Dashboard Local (Briefer)
+<img width="1359" height="613" alt="image" src="https://github.com/user-attachments/assets/8b96c4b8-d044-4bf5-b105-89e137a604ae" />
 
 Projeto alinhado ao **ODS 16 — Paz, Justiça e Instituições Eficazes**.  
 A solução é composta por:
